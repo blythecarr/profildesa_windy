@@ -1,0 +1,115 @@
+body {
+    background-color: #e8ebec;
+    text-align: center;
+}
+
+header {
+    background-image: url('img/foto\ desa.jpg'); /* Ganti dengan URL gambar yang diinginkan */
+    background-size: cover; /* Memastikan gambar menutupi seluruh area */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-position: center; /* Memposisikan gambar di tengah */
+    height: 400px; /* Tinggi header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center;
+}
+section header {
+    background-image: url('img/pemandangan\ desa.jpg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover; /* Mengubah ukuran gambar untuk menutupi area */
+    background-position: center; /* Memusatkan gambar */
+    color: #ffffff; /* Warna teks */
+    padding: 20px; /* Ruang dalam */
+    text-align: center;
+    height: 400px; /* Tinggi header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center;
+    margin-top: 20px;
+}
+section h2 {
+    background-image: url('img/wisata\ desa.jpg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover; /* Mengubah ukuran gambar untuk menutupi area */
+    background-position: center; /* Memusatkan gambar */
+    color: #ffffff; /* Warna teks */
+    padding: 20px; /* Ruang dalam */
+    text-align: center;
+    height: 400px; /* Tinggi header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center;
+    margin-top: 20px;
+}
+section h3 {
+    background-image: url('img/makam\ desa.jpg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover; /* Mengubah ukuran gambar untuk menutupi area */
+    background-position: center; /* Memusatkan gambar */
+    color: #ffffff; /* Warna teks */
+    padding: 20px; /* Ruang dalam */
+    text-align: center;
+    height: 400px; /* Tinggi header */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.gallery-row {
+    display: flex; /* Membuat semua item dalam satu baris */
+    overflow-x: auto; /* Menambah scrollbar horizontal jika gambar melebihi lebar layar */
+    gap: 15px; /* Jarak antar gambar */
+    padding: 10px;
+}
+.gallery-item {
+    position: relative;
+    width: 250px; /* Ukuran lebar gambar, sesuaikan sesuai kebutuhan */
+    border-radius: 8px;
+    flex-shrink: 0; /* Agar gambar tidak mengecil dan tetap pada satu baris */
+}
+.gallery-item img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    border-radius: 8px;
+}
+.gallery-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+
+
+footer {
+    background-color: #a4b1b6; /* Warna latar belakang footer */
+    color: #ffffff; /* Warna teks */
+    text-align: center; /* Rata tengah */
+    padding: 20px; /* Ruang di dalam footer */
+    position: relative; /* Untuk mengatur elemen posisi */
+    bottom: 0;
+    width: 100%; /* Lebar footer */
+    margin-top: 10px;
+}
+@media (max-width: 600px) {
+    footer {
+        font-size: 14px; /* Ukuran font lebih kecil di perangkat kecil */
+    }
+}
